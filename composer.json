@@ -1,0 +1,27 @@
+{
+    "name": "leongkui/silex-couchbase",
+    "description": "Couchbase driver provider for Silex",
+    "keywords": ["silex", "couchbase"],
+    "homepage": "https://github.com/leongkui/silex-couchbase",
+    "type": "library",
+    "license": "MIT",
+    "version": "dev",
+    "authors": [
+        {
+            "name": "Lim Leong Kui",
+            "homepage": "http://selectnull.leongkui.me/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "require-dev": {
+        "silex/silex": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "SilexCouchbase": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
