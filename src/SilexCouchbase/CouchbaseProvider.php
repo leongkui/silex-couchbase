@@ -21,7 +21,7 @@ class CouchbaseProvider implements ServiceProviderInterface
             $bucket = isset($app['couchbase.bucket']) ? $app['couchbase.bucket'] : "default";
             $persistent = isset($app['couchbase.persistent']) ? $app['couchbase.persistent'] : false;
 
-            return new Couchbase($host,$user,$password,$bucket,$presistent);
+            return new \Couchbase($host,$user,$password,$bucket,$presistent);
         });
     }
 }
